@@ -17,7 +17,7 @@ This project is a simple, responsive business card built with HTML and CSS. It f
 
 ## Preview
 
-![Business Card Screenshot](logo.png)
+![Business Card Screenshot](preview.png)
 
 ---
 Created by Karina Kalicka-Molin

@@ -21,6 +21,7 @@ body {
   background-clip: padding-box;
   z-index: 1;
   animation: floating 3s ease-in-out infinite;
+  /* box-shadow: 0 0 30px 5px #80c7eb, 0 0 60px 15px #ac78e8; */
 }
 
 .business-card::before {
@@ -30,11 +31,11 @@ body {
   left: -4px;
   right: -4px;
   bottom: -4px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 10%, #000 10.01%);
-  background-size: 10px 10px;
+  background: radial-gradient(circle, #6559d0 10%, #ffffff69 10.01%);
+  background-size: 20px 20px;
   border-radius: 20px;
   z-index: -1;
-  animation: rotateBorder 10s linear infinite;
+  animation: rotateBorder 11s linear infinite;
 }
 
 @keyframes rotateBorder {
@@ -59,34 +60,34 @@ body {
 }
 
 .card-content {
-  background: linear-gradient(315deg, #9FA5D5, #E8F5C8);
+  background: linear-gradient(315deg, #80c7eb, #ac78e8);
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   color: white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
   transform: rotateY(0deg);
-  transition: transform 0.5s ease, box-shadow 0.3s ease;;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .profile-image img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   transition: transform 0.5s ease;
 }
 
 h1 {
   font-size: 25px;
   margin-bottom: 7px;
-  color: #606060;
+  color: #ffffff;
 }
 
 p {
   font-size: 15px;
   margin-bottom: 5px;
-  color: #606060;
+  color: #ffffff;
 }
 
 .socials {
@@ -107,11 +108,11 @@ p {
 }
 
 .socials a:nth-child(1) {
-  color: #0077b5;
+  color: #6559d0;
 }
 
 .socials a:nth-child(2) {
-  color: #1DA1F2;
+  color: #6559d0;
 }
 
 .socials a:nth-child(3) {
